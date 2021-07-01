@@ -22,13 +22,11 @@
 
 <script>
 export default {
-  props: [
-    "my_message",
-    "other_message",
-  ],
   data(){
     return{
       message: [],
+      my_message: '',
+      other_message: '',
     }
   },
   methods:{
